@@ -1,0 +1,20 @@
+.massege-box {
+    position: absolute;
+    top: 200px;
+    left: 20vw;
+    background-color:goldenrod;
+    width: 70vw;
+    height: 40vh;
+    z-index: 2;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  @media (max-width: 700px) {
+    .massege-box {
+      width: 70vw;
+      height: 40vh;
+      font-size: 2rem;
+    }
+  }

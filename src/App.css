@@ -1,0 +1,25 @@
+.players-container {
+  display: flex;
+  position: relative;
+}
+
+.dice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.winner-page {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  
+  text-align: center;
+  background: url("background/win.jpg")  center center/cover;
+  color: rgb(20, 15, 15);
+  font-size: 5rem;
+  text-shadow: 1rem rgb(250, 249, 248);
+}

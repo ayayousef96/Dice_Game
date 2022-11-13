@@ -1,0 +1,98 @@
+.dice_button{
+    width: 10rem;
+    height: 4rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem gray;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    background-color: rgb(210, 207, 207);
+    border-radius: 2rem;
+    border: 0.2rem solid rgba(11, 11, 11, 0.4);
+  }
+  
+  .dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+  
+  .dice-design {
+    width: 5rem;
+    height: 5rem;
+    
+  }
+  
+  .dices-img-container {
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+  }
+  
+  .dices-img-container > div {
+    margin: 0.2rem;
+  }
+  
+  .box-shadow {
+    
+    box-shadow: 0.1rem 0.1rem 0.2rem rgb(136, 159, 189);
+  }
+  
+  .dice-img1 {
+    background: url("./imgDice/dice1.png") no-repeat center center/cover;
+  }
+  
+  .dice-img2 {
+    background: url("./imgDice/dice2.png") no-repeat center center/cover;
+  }
+  
+  .dice-img3 {
+    background: url("./imgDice/dice3.png") no-repeat center center/cover;
+  }
+  
+  .dice-img4 {
+    background: url("./imgDice/dice4.png") no-repeat center center/cover;
+  }
+  
+  .dice-img5 {
+    background: url("./imgDice/dice5.png") no-repeat center center/cover;
+  }
+  
+  .dice-img6 {
+    background: url("./imgDice/dice6.png") no-repeat center center/cover;
+  }
+  
+  
+  
+  .shake-dice {
+    animation: shake 1s linear;
+    transform-style: preserve-3d;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg) ;
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+  
+  @media (max-width: 500px) {
+
+    .dice_button{
+      width: 11rem;
+      height: 4rem;
+      font-size: 1.2rem;
+    }
+    .dice-design {
+      width: 4rem;
+      height: 4rem;
+    }
+    .dice-container {
+      margin: 0.2rem;
+    }
+  }
